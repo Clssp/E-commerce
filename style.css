@@ -1,0 +1,29 @@
+body {
+    background: lightgrey;
+    font-family: 'Sul Sans', 'Vinyl OT';
+}
+
+div {
+    margin: 0;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+
+img {
+    width: 270px;
+    border-radius: 15px;
+    float: right;
+}
+
+.titulo {
+    background:rgb(234, 29, 44);
+    color: white;
+    font-size: 20px;
+}
+
+.produto {
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+}
