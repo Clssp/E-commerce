@@ -1,6 +1,52 @@
+* {
+    margin: 0px; 
+    padding: 0px; 
+    max-width: 1000px; 
+    font-family: 'Sul Sans', 'Vinyl OT'; 
+    text-align: center; 
+    margin-left: 10px; 
+    margin-right: 10px;
+}
+
+#menu ul {
+    padding:0px;
+    margin:0px;
+    background-color:#EDEDED;
+    list-style:none;
+}
+
+#menu ul li { 
+    display: inline; 
+}
+
+#menu ul li a {
+    padding: 2px 10px;
+    display: inline-block;
+
+    /* visual do link */
+    background-color:#EDEDED;
+    color: #333;
+    text-decoration: none;
+    border-bottom:3px solid #EDEDED;
+}
+
+#menu ul li a:hover {
+    background-color:#D6D6D6;
+    color: #6D6D6D;
+    border-bottom:3px solid #EA0000;
+}
+
+
+
 body {
     background: lightgrey;
     font-family: 'Sul Sans', 'Vinyl OT';
+    max-width: 1200px;
+}
+
+.corpo {
+    position: relative;
+    left: 150px;
 }
 
 div {
@@ -12,7 +58,7 @@ div {
 }
 
 img {
-    width: 270px;
+    width: 280px;
     border-radius: 15px;
     float: right;
 }
@@ -20,10 +66,55 @@ img {
 .titulo {
     background:rgb(234, 29, 44);
     color: white;
-    font-size: 20px;
+    font-size: 27px;
+    position: relative;
+    left: 10px;
 }
 
-.produto {
+.produtos {
     background: rgb(255, 255, 255);
+    text-align: left;
     border-radius: 10px;
+    padding: 10px;
+    width: 590px;
+    height: 200px;
 }
+
+.produtos h3 p {
+    text-align: left;
+}
+
+.produtos, button {
+    text-align:center;
+}
+
+.produtos img {
+    max-width: 230px;
+    border-radius: 10px;
+    float: right;
+}
+
+.produtos img button {
+    position: center;
+}
+
+/* .noticias {
+    background: rgb(234, 29, 44);
+    width: 315px;
+   
+}*/
+
+.publicada {
+    background: rgb(255, 255, 255);
+    max-width: 320px;
+    height: 500px;
+    text-align: center;
+    position: absolute;
+    top: 172px;
+    bottom: 0px;
+    left: 645px;
+    right: 0px
+}    
+
+
+
